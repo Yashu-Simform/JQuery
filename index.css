@@ -1,0 +1,51 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing:  border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableBefore{
+    display: none;
+}
+
+
+.tableAter{
+        max-height: 100%;
+        max-width: 100%;
+        display: block;
+        border-collapse: collapse;
+        overflow-x: scroll;
+        overflow-y: scroll
+}
+
+.popup{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    border: none;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 2px 2px 30px grey;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+
+.searchbar{
+    /* height: 90px; */
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
