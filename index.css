@@ -49,3 +49,15 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.active{
+    background-color: #EDE8D0;
+}
+
+.inactive{
+        text-align: center;
+        padding: 4px;
+        border: 2px solid grey;
+        border-collapse: collapse;
+        width: 30px;
+}
