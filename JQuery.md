@@ -58,8 +58,8 @@ eg. `<body><div><h1>Oho!</h1></div></body>`
 -   $("<p></p>").text('This element is created using JQuery.')
 
 ### Methods to remove the elements
--   remove()    ->      removes the specific element
--   empty()     ->      remove all children from the specific element
+-   remove()    ->      removes the selected element
+-   empty()     ->      remove all children from the selected element
 
 ### How to use
 eg. `<body><div><h1>Oho!</h1></div></body>`
@@ -133,7 +133,7 @@ You can specify as many classes as you want in these methods.
 
 
 ### AJAX (Asynchronous JavaScript and XML):
--   AJAX provide the way to load the data to a perticular HTML element, without re-loading the entire page.
+-   AJAX provide the way to load the data to a particular HTML element, without re-loading the entire page.
 -   Thus no need to reload the page again and again, just load only the part of the page which requires to be loaded.  
 -   If we try to write the AJAX code without JQuery it is going to be bit tricky, as different browsers have different syntactical requirements for AJAX.
     So we need to write code multiple times to get work upon different browsers.
